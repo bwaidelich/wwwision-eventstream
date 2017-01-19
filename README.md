@@ -38,7 +38,7 @@ new EventStream({host: 'http://127.0.0.1', port: 2113}, 'some-stream')
     .on('head', () => {
         console.log('HEAD REACHED, WAITING FOR NEW EVENTS')
     })
-    .catchup()
+    .listen()
     .catch((e) => {
         console.log('ERROR:')
         console.log(e)
