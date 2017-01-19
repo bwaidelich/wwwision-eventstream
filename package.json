@@ -1,0 +1,19 @@
+{
+  "name": "wwwision-eventstream",
+  "version": "0.1.0",
+  "description": "Conveniently consume streams from Event Store (geteventstore.com) via its HTTP API",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bwaidelich/wwwision-eventstream.git"
+  },
+  "author": "Bastian Waidelich <b.waidelich@wwwision.de>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^1.6.7"
+  }
+}
